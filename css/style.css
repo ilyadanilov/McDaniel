@@ -288,7 +288,7 @@ section, .footer {
 .header {
   min-height: 800px;
   height: 100%;
-  background: url(../img/header1.jpg) top center/contain no-repeat; }
+  background: url(../img/header1.jpg) top center/60% no-repeat; }
   @media (min-width: 768px) {
     .header {
      background-size: cover; } } }
