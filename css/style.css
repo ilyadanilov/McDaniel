@@ -201,7 +201,8 @@ h6 {
 .logo-box {
   justify-content: space-around;
   flex-wrap: wrap;
-  background-color: #eee; }
+  background-color: #eee;
+  padding: 2rem; }
   .logo-box > img {
     width: auto;
     height: 100px; }
@@ -281,7 +282,10 @@ h6 {
   color: #f72846; }
 
 .footer .contact-box {
-  margin: 10rem 0 10rem 0; }
+  margin: 5rem 0; }
+  @media (min-width: 992px) {
+    .footer .contact-box {
+      margin: 10rem 0; } }
 
 section, .footer {
   margin-top: 6rem; }
