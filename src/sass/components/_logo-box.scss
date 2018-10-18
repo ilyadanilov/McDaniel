@@ -1,0 +1,20 @@
+.logo-box {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #eee;
+    padding: 2rem;
+    
+    &>img {
+        width: auto;
+        height: 100px;
+    }
+    @media (min-width: 576px) {
+        padding: 4rem 0;
+    }
+    @media (min-width: 1200px) {
+        padding: 4rem 10rem;
+    }
+    @media (min-width: 1800px) {
+        padding: 4rem 20rem;
+    }
+}

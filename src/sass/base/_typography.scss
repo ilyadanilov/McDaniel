@@ -1,0 +1,142 @@
+// A TAG
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+// Headings
+.heading-main {
+	display: flex;
+	flex-direction: column;
+	font-family: Poppins;
+	font-size: 1.6rem;
+	margin-left: 3rem;
+	margin-top: 6rem;
+
+
+
+	&__hello {
+		border-bottom: 2px solid #212529;
+		width: fit-content;
+		// margin-bottom: 1rem;
+		font-size: 1rem;
+		// margin-left: 5px;
+
+		&+span {
+			font-size: 2em;
+			font-weight: 300;
+		}
+	}
+
+	&__name {
+		font-weight: 700;
+		color: #f72846;
+		line-height: 1;
+		font-size: 2em;
+
+		&+span {
+			font-size: .3em;
+			margin-left: 5px;
+		}
+
+	}
+
+	@media (min-width: 576px) {
+		font-size: 2.5rem;
+		margin-top: 3rem;
+
+	}
+
+	@media (min-width: 992px) {
+		font-size: 3rem;
+		margin-left: 4rem;
+	}
+
+	@media (min-width: 1200px) {
+		font-size: 3rem;
+		margin-left: 10rem;
+		margin-top: 5rem;
+	}
+	@media (min-width: 1800px) {
+		font-size: 4rem;
+		
+		
+	}
+}
+
+
+h3,
+.h3 {
+	font-family: Poppins;
+	text-transform: uppercase;
+}
+
+.h3 {
+	font-weight: 600;
+	font-size: 2.2rem;
+	/* margin-bottom: 2rem; */
+}
+
+h4 {
+	font-family: Caveat;
+	color: rgb(247, 40, 70);
+
+}
+
+h5 {
+	text-transform: uppercase;
+}
+
+h5.card-title {
+	font-size: 1rem;
+}
+
+h6 {
+	font-size: .7rem;
+	text-transform: uppercase;
+}
+
+
+// FANCY 
+.fancy span {
+	display: inline-block;
+	position: relative;
+}
+
+.fancy span:before,
+.fancy span:after {
+	content: "";
+	position: absolute;
+	border-top: 3px solid #212529;
+	top: .50em;
+	width: .5em;
+}
+
+.fancy span:before {
+	right: 100%;
+	margin-right: 15px;
+}
+
+.fancy span:after {
+	left: 100%;
+	margin-left: 15px;
+}
+
+.about-me-p {
+	text-align: center;
+	font-size: 0.8rem;
+	line-height: 1.5rem;
+	color: #949494;
+}
+
+.handwrite {
+	font-family: 'Dawning of a New Day', cursive;
+	font-size: 2rem;
+	color: #000;
+
+}

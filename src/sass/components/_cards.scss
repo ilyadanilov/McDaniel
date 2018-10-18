@@ -1,0 +1,75 @@
+.card {
+	border: none;
+}
+
+// About-me skill cards
+
+.list-jobs .list-group-item {
+	width: fit-content;
+}
+.list-group-item {
+	padding-left: 0;
+	border: none;
+}
+
+.date {
+	font-weight: bold;
+	font-size: .8rem
+}
+
+.date + a {
+	color: rgb(247, 40, 70);
+	font-weight: bold
+}
+.icon {
+	padding-left: 2.5rem;
+	background-size: 2rem 4rem;
+	background-repeat: no-repeat;
+	padding-right: 0;
+	width: 9.25rem;
+	
+	@media (min-width: 576px) {
+	padding-left: 3rem;
+	background-size: 2.5rem 5rem;
+	width: 11rem;
+	}
+	@media (min-width: 768px) {
+	width: 10rem;
+	}
+	@media (min-width: 992px) {
+	width: 9.6875rem;
+	}
+}
+
+.brand {
+	background-image: url(../bookmark.svg);
+	}
+
+.design {
+	background-image: url(../brush.svg);
+	}
+
+.marketing {
+	background-image: url(../briefcase.svg);
+	}
+
+.support {
+	background-image: url(../headphone.svg);
+	}
+.progress.mt-4 {
+	height: 2px;
+}
+
+// PORTFOLIO CARDS
+.card-img-top {
+	max-height: 370px;
+	max-width: 570px;
+	
+}
+
+
+// BLOG CARDS
+.card-date {
+	color: rgb(247, 40, 70);
+	font-style: italic;
+}

@@ -1,0 +1,51 @@
+section, .footer {
+	margin-top: 3rem;
+	@media (min-width: 768px) {
+	margin-top: 6rem;
+	
+	}
+    }
+    
+
+// HEADER
+.header {
+	height: 25rem;
+	background: url(../img/header1.jpg) top center/ cover no-repeat;
+	@media (min-width: 576px) {
+		height: 30rem;
+	}
+	@media (min-width: 992px) {
+		height: 35rem;
+	}
+	@media (min-width: 1200px) {
+		height: 40rem;
+		
+	}
+	@media (min-width: 1800px) {
+		height: 45rem;
+		
+	}
+	}
+
+
+    // ABOUT ME SECTION
+.skills {
+	margin-top: 3rem;
+	@media (min-width: 768px) {
+	margin-top: 6rem;
+	
+	}
+}
+
+// PORTFOLIO SECTION
+.portfolio .nav-item {
+	text-transform: uppercase;
+	height: 1rem;
+	 
+}
+
+// BLOG SECTION
+
+#blog .card-deck {
+    margin-top: 4rem;
+}

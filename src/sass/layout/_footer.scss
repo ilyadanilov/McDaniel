@@ -1,0 +1,33 @@
+.footer {
+    background-color: #222;
+}
+.footer h3 {
+    color: white;
+}
+.footer .fancy span:before,
+.footer .fancy span:after {
+		border-top: 3px solid white;
+	}
+.footer p {
+    margin-top: 2rem;
+    color: white;
+}
+
+.footer div:last-child {
+	background-color: rgb(20, 20, 20);
+}
+
+.footer .row:last-child p {
+margin: 1rem auto;
+}
+.footer a {
+	text-decoration: underline;
+	color: rgb(247, 40, 70);
+}
+
+.footer .contact-box {
+margin: 5rem 0;
+@media (min-width:992px){
+    margin: 10rem 0;
+}
+}
