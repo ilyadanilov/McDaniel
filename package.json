@@ -1,14 +1,14 @@
 {
-  "name": "bootstrap1",
+  "name": "mcdaniel",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "node-sass src/sass/main.scss css/style.css -w"
   },
-  "author": "",
+  "author": "Ilya Danilov",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.9.3"
+    "node-sass": "^7.0.3"
   }
 }
